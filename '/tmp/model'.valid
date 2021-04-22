@@ -1,0 +1,1 @@
+valid:{'exs': 7801, 'accuracy': 0, 'f1': 0.1042, 'bleu': 8.248e-11, 'lr': 0.5, 'num_updates': 26, 'loss': 2087.0, 'token_acc': 0.1154, 'nll_loss': 8.414, 'ppl': 4508.0}
