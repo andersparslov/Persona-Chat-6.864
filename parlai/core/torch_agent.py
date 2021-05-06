@@ -1385,6 +1385,9 @@ class TorchAgent(Agent):
         ``eval_step`` methods instead. The former is called when labels are
         present in the observations batch; otherwise, the latter is called.
         """
+
+        #print("YEP HERE")
+
         batch_size = len(observations)
         # initialize a list of replies with this agent's id
         batch_reply = [{'id': self.getID()} for _ in range(batch_size)]

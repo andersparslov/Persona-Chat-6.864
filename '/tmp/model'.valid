@@ -1,1 +1,2 @@
-valid:{'exs': 7801, 'accuracy': 0, 'f1': 0.1042, 'bleu': 8.248e-11, 'lr': 0.5, 'num_updates': 26, 'loss': 2087.0, 'token_acc': 0.1154, 'nll_loss': 8.414, 'ppl': 4508.0}
+valid:{'exs': 7801, 'accuracy': 0.0006409, 'f1': 0.1504, 'bleu': 0.001608, 'lr': 0.01, 'num_updates': 182659, 'loss': 1261.0, 'token_acc': 0.2715, 'nll_loss': 5.723, 'ppl': 305.9}
+valid:{'exs': 7801, 'accuracy': 0.0007691, 'f1': 0.1531, 'bleu': 0.001849, 'lr': 0.01, 'num_updates': 276197, 'loss': 1222.0, 'token_acc': 0.2774, 'nll_loss': 5.55, 'ppl': 257.1}

@@ -215,7 +215,6 @@ class RNNEncoder(nn.Module):
             the hidden state is the final hidden state of the encoder.
             the attention mask is a mask of which input values are nonzero.
         """
-        print("Input shape:", xs.shape)
         bsz = len(xs)
 
         # embed input tokens

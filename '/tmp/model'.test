@@ -1,1 +1,2 @@
-test:{'exs': 7512, 'accuracy': 0, 'f1': 0.1075, 'bleu': 1.354e-10, 'lr': 0.5, 'num_updates': 26, 'loss': 2003.0, 'token_acc': 0.1179, 'nll_loss': 8.38, 'ppl': 4359.0}
+test:{'exs': 7512, 'accuracy': 0.0006656, 'f1': 0.1547, 'bleu': 0.001715, 'lr': 0.01, 'num_updates': 182659, 'loss': 1206.0, 'token_acc': 0.2756, 'nll_loss': 5.683, 'ppl': 294.0}
+test:{'exs': 7512, 'accuracy': 0.0007987, 'f1': 0.1587, 'bleu': 0.002091, 'lr': 0.01, 'num_updates': 276197, 'loss': 1169.0, 'token_acc': 0.2822, 'nll_loss': 5.509, 'ppl': 247.0}

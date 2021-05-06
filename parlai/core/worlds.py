@@ -659,16 +659,8 @@ class BatchWorld(World):
                 w.parley_init()
 
         for agent_idx in range(num_agents):
-            print("agent:", agent_idx)
-            #print(batch_observations[1])
-            if agent_idx == 1:
-                if batch_observations[agent_idx] is not None:
-                    [print("*"*50 + "\n" + "Observation: " + batch['text'] + "\n" + "Label: " + batch['labels'][0]  + "\n" + "*"*50) for batch in batch_observations[agent_idx]]
-
             # The agent acts.
             batch_act = self.batch_act(agent_idx, batch_observations[agent_idx])
-
-
             self.acts[agent_idx] = batch_act
             # We possibly execute this action in the world.
             if hasattr(self.world, 'execute'):
